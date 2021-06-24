@@ -9,5 +9,7 @@ while(True):
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client.settimeout(int(time))
     codig = client.connect_ex((target,  int(port)))
-
-    print (codig)
+    if codig == 0:
+        print ("Porta", port, "aberta!")
+    else:
+        print ("Porta", port, "fechada :(")
