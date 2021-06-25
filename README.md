@@ -5,7 +5,10 @@ so fiz isso pq eu n gosto de usar os scripts dos outros, se quiser fazer commit 
 # como usar
 
 WINDOWS
-baixe o Python, e no terminal use o comando "python scan.py"
+  baixe o Python
+  no CMD use o comando "python scan.py"
+ 
+-----------------------------------------------
 
 LINUX
-no terminal dê o comando "python3 scan.py"
+  no terminal dê o comando "python3 scan.py"
